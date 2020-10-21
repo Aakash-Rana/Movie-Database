@@ -1,0 +1,17 @@
+{
+  "name": "movie_db_dbms",
+  "version": "1.0.0",
+  "description": "Movie Database DBMS Project",
+  "main": "app.js",
+  "scripts": {
+    "start": "concurrently \"node db.js\" \"node app.js\""
+  },
+  "author": "Sabeel",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mysql2": "^1.7.0"
+  }
+}

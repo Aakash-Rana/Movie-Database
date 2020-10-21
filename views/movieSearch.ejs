@@ -1,0 +1,61 @@
+<% include ./partials/header.ejs %>
+
+    <div class="container text-center" style="margin-top: 2rem;">
+        <h3>
+            <strong>
+                Results of your search by movie name are here!
+            </strong>
+        </h3>
+    </div>
+
+    <div class="container search-data">
+        <% if(data.length === 0) { %>
+            <div class="mt-5 text-center container">
+                <p class="lead">
+                    Looks like we don't have details about the movie you requested :( Help us expand our database by submitting the details!
+                </p>
+                <a class="btn btn-primary" href="/new">Submit details!</a>
+            </div>
+        <% } %> 
+        <% for(let i = 0; i < data.length; i++) { %>
+            <div class="eachmovie container">
+                <div class="card w-100 mt-5 text-center">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong><%= data[i].title %></strong></h5>
+                        <p class="card-text movie-plot"> <span><strong>Plot</strong></span><br> <%= data[i].plot %> </p>
+                        <p class="card-text movie-misc">
+                            <span><strong>Runtime:</strong> <%= data[i].runtime %>  </span>
+                            <br>
+                            <span><strong>Release Year:</strong> <%= data[i].release_year %>  </span>
+                        </p>
+                        <p class="card-text movie-genre">
+                            <span> <strong>Genres </strong><br>
+                                <% for(let j = 0; j < data[i].genres.length; j++) { %>
+                                    <span id="genre${j}"><%= data[i].genres[j].genre %></span><br>
+                                <% } %>
+                            </span>
+                        </p>
+                        <p class="card-text movie-cast">
+                            <span> <strong>Cast Members </strong><br>
+                                <% for(let j = 0; j < data[i].actors.length; j++) { %>
+                                    <span id="actor${j}"><%= data[i].actors[j].actor_name %></span><br>
+                                <% } %>
+                            </span>
+                        </p>
+                        <p class="card-text movie-misc">
+                            <span><strong>Director</strong><br><%= data[i].director %></span>
+                        </p>
+                        <p class="card-text movie-misc">
+                            <span><strong>Production Company</strong><br><%= data[i].pc %></span>
+                        </p>
+                        <div class="container text-center" id="reviewbtn">
+                            <a href="movie/reviews/<%= data[i].movie_id %>" class="btn btn-primary">View Reviews!</a>
+                            <a href="movie/reviews/new/<%= data[i].movie_id %>" class="btn btn-primary">Submit Your Review!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <% } %>
+    </div>
+
+<% include ./partials/footer.ejs %>

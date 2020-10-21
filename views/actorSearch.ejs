@@ -1,0 +1,38 @@
+<% include ./partials/header.ejs %>
+
+    <div class="container text-center">
+        <h3>
+            <strong>
+                Results of your search by actor name are here!
+            </strong>
+        </h3>
+    </div>
+
+    <div class="container search-data">
+        <% if(data.length === 0) { %>
+            <div class="mt-5 text-center container">
+                <p class="lead">
+                    Looks like we don't have details about the actor's movies :(
+                    Helps us expand our database by submitting the details!
+                    <a class="btn btn-primary" href="/new">Submit details!</a>
+                </p>
+            </div>
+        <% } %>
+        <div class="container text-center">
+            <% if(data.length !== 0) { %>
+                <h3>Movies of <%= data[0].actor_name %></h3>
+            <% } %>            
+        </div>
+        <% for(let i = 0; i < data.length; i++) { %>
+            <div class="eachactor container">
+                <div class="card w-100 mt-5 text-center">
+                    <div class="card-body">
+                        <p class="card-text"> <span><strong>Title</strong></span><br> <%= data[i].title %></p>
+                        <p class="card-text"> <span><strong>Plot</strong></span><br> <%= data[i].plot %></p>
+                        <p class="card-text"> <span><strong>Release Year</strong></span><br> <%= data[i].release_year %></p>
+                    </div>
+                </div>
+            </div>
+        <% } %>
+    </div>
+<% include ./partials/footer.ejs %>

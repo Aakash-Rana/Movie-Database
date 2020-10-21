@@ -1,0 +1,46 @@
+/**
+ Export to JSON plugin for PHPMyAdmin
+ @version 4.6.6deb5
+ */
+
+// Database 'dbmsproject'
+
+// dbmsproject.cast_actor
+
+[{"movie_id":"1","actor_name":"Chris Evans"}, {"movie_id":"1","actor_name":"Chris Hemsworth"}, {"movie_id":"1","actor_name":"Robert Downey"}, {"movie_id":"1","actor_name":"Scarlett Johannasson"}, {"movie_id":"1","actor_name":"Tom Hiddleston"}, {"movie_id":"2","actor_name":"Anushka Sharma"}, {"movie_id":"2","actor_name":"Katrina Kaif"}, {"movie_id":"2","actor_name":"Shahrukh Khan"}, {"movie_id":"3","actor_name":"Aamir Khan"}, {"movie_id":"3","actor_name":"Amitabh Bachan"}, {"movie_id":"3","actor_name":"Fatima Sana Sheikh"}, {"movie_id":"3","actor_name":"Katrina Kaif"}, {"movie_id":"4","actor_name":"Ayushman Khurrana"}, {"movie_id":"4","actor_name":"Radhika Apte"}, {"movie_id":"4","actor_name":"Tabu"}, {"movie_id":"5","actor_name":"Anushka Sharma"}, {"movie_id":"5","actor_name":"Dia Mirza"}, {"movie_id":"5","actor_name":"Manisha Koirala"}, {"movie_id":"5","actor_name":"Paresh Rawal"}, {"movie_id":"5","actor_name":"Ranbir Kapoor"}, {"movie_id":"5","actor_name":"Sonam Kapoor"}, {"movie_id":"5","actor_name":"Vicky Kaushal"}, {"movie_id":"6","actor_name":"Chris Evans"}, {"movie_id":"6","actor_name":"Chris Hemsworth"}, {"movie_id":"6","actor_name":"Mark Ruffalo"}, {"movie_id":"6","actor_name":"Robert Downey"}, {"movie_id":"6","actor_name":"Scarlett Johanasson"}, {"movie_id":"7","actor_name":"Alia Bhatt"}, {"movie_id":"7","actor_name":"Ram Katara"}, {"movie_id":"7","actor_name":"Vicky Kaushal"}, {"movie_id":"10","actor_name":"Aamir Khan"}, {"movie_id":"10","actor_name":"Boman Irani"}, {"movie_id":"10","actor_name":"Kareena Kapoor"}, {"movie_id":"10","actor_name":"R. Madhavan"}, {"movie_id":"10","actor_name":"Sharman Joshi"}, {"movie_id":"11","actor_name":"Amit Sadh"}, {"movie_id":"11","actor_name":"Anushka Sharma"}, {"movie_id":"11","actor_name":"Randeep Hooda"}, {"movie_id":"11","actor_name":"Salman Khan"}, {"movie_id":"12","actor_name":"Mahira Khan"}, {"movie_id":"12","actor_name":"Nawazuddin Siddiqui"}, {"movie_id":"12","actor_name":"Shahrukh Khan"}]
+
+// dbmsproject.cast_of_movie
+
+[{"movie_id":"1","cast_strength":"5","casting_manager":"Kevin Feige"}, {"movie_id":"2","cast_strength":"3","casting_manager":"Anand L Rai"}, {"movie_id":"3","cast_strength":"4","casting_manager":"Vijay Krishna"}, {"movie_id":"4","cast_strength":"3","casting_manager":"NA"}, {"movie_id":"5","cast_strength":"7","casting_manager":"Vidu Vinod"}, {"movie_id":"6","cast_strength":"5","casting_manager":"Kevin Fiege"}, {"movie_id":"7","cast_strength":"3","casting_manager":"Karan Johar"}, {"movie_id":"10","cast_strength":"5","casting_manager":"Vidu Vinod "}, {"movie_id":"11","cast_strength":"4","casting_manager":"Ali Abbas Zafar"}, {"movie_id":"12","cast_strength":"3","casting_manager":"Rahul Dholakia"}]
+
+// dbmsproject.directed_by
+
+[{"director_id":"1","movie_id":"1"}, {"director_id":"2","movie_id":"2"}, {"director_id":"3","movie_id":"3"}, {"director_id":"4","movie_id":"4"}, {"director_id":"5","movie_id":"5"}, {"director_id":"6","movie_id":"6"}, {"director_id":"7","movie_id":"7"}, {"director_id":"5","movie_id":"10"}, {"director_id":"8","movie_id":"11"}, {"director_id":"9","movie_id":"12"}]
+
+// dbmsproject.director
+
+[{"director_name":"Russo ","director_id":"1"}, {"director_name":"Anand L Rai","director_id":"2"}, {"director_name":"Vijay Krishna ","director_id":"3"}, {"director_name":"Sriram Raghavan","director_id":"4"}, {"director_name":"Rajkumar Hirani","director_id":"5"}, {"director_name":"Anthony Russo","director_id":"6"}, {"director_name":"Meghna Gulzar","director_id":"7"}, {"director_name":"Ali Abbas Zafar","director_id":"8"}, {"director_name":"Rahul Dholakia","director_id":"9"}]
+
+// dbmsproject.movie
+
+[{"movie_id":"1","plot":"The avengers have assembled, can they help save the earth against the chiaturi army?","runtime":"02:11","release_year":"2012","title":"Avengers"}, {"movie_id":"2","plot":"A rich but physically-challenged man struggles to find his perfect match but his experiences with an amputee and a superstar lead to many adventures which help him complete his imperfection.","runtime":"02:33","release_year":"2018","title":"Zero"}, {"movie_id":"3","plot":"Based on Philip Meadows Taylor's 1839 novel Confessions of a Thug, the movie tells us about a thug named Ameer Ali and his gang, whose nefarious ways posed a serious challenge to the British Empire in India between 1790 and 1805.","runtime":"02:55","release_year":"2018","title":"Thugs of Hindustan"}, {"movie_id":"4","plot":"A series of mysterious events changes the life of a blind pianist who now must report a crime that was actually never witnessed by him.","runtime":"02:11","release_year":"2018","title":"Andhadhun"}, {"movie_id":"5","plot":"Sanju is a biopic of the controversial life of actor Sanjay Dutt: his film career, jail sentence and personal life.","runtime":"02:35","release_year":"2018","title":"Sanju"}, {"movie_id":"6","plot":"The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.","runtime":"02:29","release_year":"2018","title":"Avengers : Infinity War"}, {"movie_id":"7","plot":"A Kashmiri woman agrees to marry a Pakistani army officer in order to spy on Pakistan during the Indo-Pakistan War of 1971.","runtime":"02:20","release_year":"2018","title":"Raazi"}, {"movie_id":"10","plot":"Two friends are searching for their long lost companion. They revisit their college days and recall the memories of their friend who inspired them to think differently.","runtime":"02:50","release_year":"2009","title":"3 Idiots"}, {"movie_id":"11","plot":"Sultan is a classic underdog tale about a wrestler's journey, looking for a comeback by defeating all odds. Will he emerge victorious?","runtime":"02:50","release_year":"2016","title":"Sultan"}, {"movie_id":"12","plot":"A bootlegger sets out to improve his community as a promising leader but falls in a political trap","runtime":"02:33","release_year":"2017","title":"Raees"}]
+
+// dbmsproject.movie_genre
+
+[{"movie_id":"1","genre":"Action"}, {"movie_id":"1","genre":"Comedy"}, {"movie_id":"2","genre":"Action"}, {"movie_id":"2","genre":"Comedy"}, {"movie_id":"2","genre":"Drama"}, {"movie_id":"3","genre":"Action"}, {"movie_id":"3","genre":"Drama"}, {"movie_id":"4","genre":"Action"}, {"movie_id":"4","genre":"Drama"}, {"movie_id":"5","genre":"Drama"}, {"movie_id":"6","genre":"Action"}, {"movie_id":"6","genre":"Comedy"}, {"movie_id":"7","genre":"Action"}, {"movie_id":"7","genre":"Drama"}, {"movie_id":"10","genre":"Comedy"}, {"movie_id":"10","genre":"Drama"}, {"movie_id":"10","genre":"Romance"}, {"movie_id":"11","genre":"Action"}, {"movie_id":"11","genre":"Comedy"}, {"movie_id":"11","genre":"Romance"}, {"movie_id":"12","genre":"Action"}, {"movie_id":"12","genre":"Drama"}]
+
+// dbmsproject.produced_by
+
+[{"movie_id":"1","pc_id":"1"}, {"movie_id":"6","pc_id":"1"}, {"movie_id":"2","pc_id":"2"}, {"movie_id":"3","pc_id":"2"}, {"movie_id":"11","pc_id":"2"}, {"movie_id":"4","pc_id":"3"}, {"movie_id":"5","pc_id":"4"}, {"movie_id":"10","pc_id":"4"}, {"movie_id":"7","pc_id":"5"}, {"movie_id":"12","pc_id":"6"}]
+
+// dbmsproject.production_company
+
+[{"pc_id":"1","pc_name":"Marvel Studios","pc_address":"Hollywood USA","pc_owner":"Disney"}, {"pc_id":"2","pc_name":"Yash Raj Films","pc_address":"Mumbai","pc_owner":"Aditya Raj"}, {"pc_id":"3","pc_name":"Viacom 18 ","pc_address":"Mumbai","pc_owner":"Network 18 Group"}, {"pc_id":"4","pc_name":"Rajkumar Hirani Films","pc_address":"Mumbai, Maharashtra","pc_owner":"Rajkumar Hirani"}, {"pc_id":"5","pc_name":"Dharma Productions","pc_address":"Mumbai, Maharashtra","pc_owner":"Yash Johar"}, {"pc_id":"6","pc_name":"Red Chillies Entertainment","pc_address":"Mumbai, Maharashtra","pc_owner":"Gauri Khan"}]
+
+// dbmsproject.rated
+
+[{"review_id":"1","movie_id":"1"}, {"review_id":"2","movie_id":"3"}, {"review_id":"3","movie_id":"10"}]
+
+// dbmsproject.reviews
+
+[{"review_id":"1","rating":"5","reviewed_by":"Anonymous","review_desc":"Brilliant start to the avengers initiative."}, {"review_id":"2","rating":"1","reviewed_by":"Sabeel","review_desc":"A poor film, not worth the watch. First time disappointed by Aamir Khan's performance"}, {"review_id":"3","rating":"5","reviewed_by":"John","review_desc":"Amazing movie!! Great family watch.."}]

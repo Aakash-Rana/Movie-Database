@@ -1,0 +1,37 @@
+.jumbotron {
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+}
+.display-4 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.btn {
+    border-radius: 0;
+    color: #fff;
+    background-color: #003f93;
+    transition: all .3s;
+}
+.btn:hover {
+    color: #003f93;
+    background-color: #fff;   
+}
+.hidden {
+    display: none;
+    transition: all .3s;
+}
+.visible {
+    display: block;
+    transition: all .3s;
+}
+.card-body {
+    font-size: 1.1rem;
+}
+.thumbnail img {
+    width: 100%;
+}
+#thumbnail_show {
+    padding: 0;
+}
